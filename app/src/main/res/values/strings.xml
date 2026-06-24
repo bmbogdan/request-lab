@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">RequestLab</string>
+
+    <!-- Environments list -->
+    <string name="environments_title">Environments</string>
+    <string name="cd_new_environment">New environment</string>
+    <string name="cd_active_env">Active environment</string>
+    <string name="variable_count">%d variable(s)</string>
+    <string name="new_environment_title">New environment</string>
+    <string name="environment_name_label">Environment name</string>
+    <string name="delete_environment_confirm_title">Delete environment?</string>
+    <string name="delete_environment_confirm_body">Delete \"%s\" and all its variables? This cannot be undone.</string>
+    <string name="environments_empty_message">No environments yet.\nCreate one to use {{variables}} in your requests.</string>
+    <string name="new_environment">New environment</string>
+    <string name="environments_error_message">Couldn\'t load environments.</string>
+    <string name="retry">Retry</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Create</string>
+
+    <!-- Environment detail -->
+    <string name="environment_detail_title">Environment</string>
+    <string name="save">Save</string>
+    <string name="env_encrypted_notice">Variable values are encrypted on device.</string>
+    <string name="variable_key_label">Key</string>
+    <string name="variable_value_label">Value</string>
+    <string name="cd_delete_variable">Delete variable %s</string>
+    <string name="key_already_exists">Key already exists</string>
+    <string name="add_variable">Add variable</string>
+    <string name="unsaved_changes_title">Unsaved changes</string>
+    <string name="unsaved_changes_body">You have unsaved changes. Discard them?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep editing</string>
+    <string name="cd_loading">Loading…</string>
+    <string name="cd_navigate_back">Navigate back</string>
+
+    <!-- Environment switcher -->
+    <string name="switcher_title">Environment</string>
+    <string name="no_environment">No environment</string>
+    <string name="manage_environments">Manage Environments</string>
+
+    <!-- Builder screen -->
+    <string name="builder_title">Builder</string>
+    <string name="url_label">URL</string>
+    <string name="send">Send</string>
+    <string name="sending">Sending…</string>
+    <string name="pane_request">Request</string>
+    <string name="pane_response">Response</string>
+    <string name="pane_response_ready">Response ●</string>
+    <string name="menu_save_to_collection">Save to collection</string>
+    <string name="menu_export_curl">Export cURL</string>
+    <string name="cd_overflow_menu">More options</string>
+
+    <!-- Builder tabs -->
+    <string name="header_key_label">Header</string>
+    <string name="header_value_label">Value</string>
+    <string name="add_header">Add header</string>
+    <string name="param_key_label">Param</string>
+    <string name="param_value_label">Value</string>
+    <string name="add_param">Add parameter</string>
+    <string name="form_field_key_label">Key</string>
+    <string name="form_field_value_label">Value</string>
+    <string name="add_field">Add field</string>
+
+    <!-- Body tab -->
+    <string name="body_none_hint">Select a body type above</string>
+    <string name="body_json_label">JSON body</string>
+    <string name="body_raw_label">Raw body</string>
+    <string name="body_content_type_label">Content-Type</string>
+    <string name="multipart_not_supported">Multipart is not supported in this version</string>
+    <string name="no_file_selected">No file selected</string>
+
+    <!-- Auth tab -->
+    <string name="auth_none_hint">Select an authentication type above</string>
+    <string name="auth_username_label">Username</string>
+    <string name="auth_password_label">Password</string>
+    <string name="auth_token_label">Bearer token</string>
+
+    <!-- Response pane -->
+    <string name="response_empty_message">Configure a request and tap Send</string>
+    <string name="response_headers">Response headers</string>
+    <string name="cd_expand_headers">Expand headers</string>
+    <string name="cd_collapse_headers">Collapse headers</string>
+    <string name="cd_copy_body">Copy response body</string>
+    <string name="body_truncated">Body truncated — showing first %d KB</string>
+    <string name="raw">Raw</string>
+
+    <!-- cURL export sheet -->
+    <string name="curl_export_title">Export cURL</string>
+    <string name="cd_close_sheet">Close</string>
+    <string name="cd_curl_command">cURL command</string>
+    <string name="include_credentials_label">Include credentials</string>
+    <string name="include_credentials_hint">When off, auth values are redacted</string>
+    <string name="copy">Copy</string>
+    <string name="share">Share</string>
+
+    <!-- History -->
+    <string name="history_title">History</string>
+    <string name="history_empty_message">No requests sent yet.\nSend your first request from the Builder tab.</string>
+    <string name="history_detail_title">Request detail</string>
+    <string name="cd_delete_entry">Delete entry</string>
+    <string name="reuse_in_builder">Reuse</string>
+    <string name="history_environment">Environment: %s</string>
+    <string name="history_section_request">Request</string>
+    <string name="history_section_response">Response</string>
+    <string name="history_params">Query parameters</string>
+    <string name="history_request_body">Request body</string>
+    <string name="history_response_body">Response body</string>
+
+    <!-- Save to collection sheet -->
+    <string name="save_to_collection_title">Save to collection</string>
+    <string name="no_collections_hint">No collections yet. Create one below.</string>
+    <string name="new_collection_label">New collection name</string>
+    <string name="request_name_label">Request name</string>
+
+    <!-- Collections -->
+    <string name="collections_title">Collections</string>
+    <string name="collections_empty_message">No collections yet.\nSave requests from the Builder to organize them.</string>
+    <string name="new_collection">New collection</string>
+    <string name="new_collection_dialog_title">New collection</string>
+    <string name="rename_collection_title">Rename collection</string>
+    <string name="collection_name_label">Collection name</string>
+    <string name="delete_collection_title">Delete collection?</string>
+    <string name="delete_collection_body">Delete \"%s\" and all saved requests? This cannot be undone.</string>
+    <string name="delete_collection_confirm_body">Delete this collection and all saved requests? This cannot be undone.</string>
+    <string name="request_count">%d request(s)</string>
+    <string name="collection_detail_title">Collection</string>
+    <string name="collection_requests_empty">No saved requests yet.\nSave a request from the Builder.</string>
+    <string name="open_in_builder">Open in builder</string>
+
+    <!-- Docs -->
+    <string name="docs_title">Docs</string>
+    <string name="docs_search_hint">Search articles…</string>
+    <string name="docs_empty_search">No articles match your search.</string>
+    <string name="docs_article_title">Article</string>
+    <string name="docs_category_methods">Methods</string>
+    <string name="docs_category_headers">Headers</string>
+    <string name="docs_category_status_codes">Status Codes</string>
+    <string name="docs_category_auth">Authentication</string>
+    <string name="docs_category_params">Parameters</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_requests">Requests</string>
+    <string name="timeout_label">Request timeout</string>
+    <string name="timeout_hint">Maximum time to wait for a response before cancelling.</string>
+    <string name="follow_redirects_label">Follow redirects</string>
+    <string name="follow_redirects_hint">Automatically follow 3xx redirect responses.</string>
+    <string name="settings_section_data">Data</string>
+    <string name="clear_history_label">Clear history</string>
+    <string name="clear_history_hint">Remove all sent requests from history.</string>
+    <string name="reset_app_label">Reset all data</string>
+    <string name="reset_app_hint">Delete all history, collections, environments, and credentials.</string>
+    <string name="clear_history_confirm_title">Clear history?</string>
+    <string name="clear_history_confirm_body">Remove all sent requests from history? This can\'t be undone.</string>
+    <string name="reset_app_confirm_title">Reset all data?</string>
+    <string name="reset_app_confirm_body">History, collections, environments, and credentials will be permanently deleted.</string>
+    <string name="cd_timeout_slider">Request timeout slider, currently %ds</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="clear">Clear</string>
+    <string name="reset">Reset</string>
+</resources>

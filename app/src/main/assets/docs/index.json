@@ -1,0 +1,12 @@
+[
+  {"id": "http-methods",      "title": "HTTP Methods",         "category": "METHODS",      "filename": "http-methods.md"},
+  {"id": "request-headers",   "title": "Request Headers",      "category": "HEADERS",      "filename": "request-headers.md"},
+  {"id": "response-headers",  "title": "Response Headers",     "category": "HEADERS",      "filename": "response-headers.md"},
+  {"id": "status-2xx",        "title": "2xx Success",          "category": "STATUS_CODES", "filename": "status-2xx.md"},
+  {"id": "status-3xx",        "title": "3xx Redirection",      "category": "STATUS_CODES", "filename": "status-3xx.md"},
+  {"id": "status-4xx",        "title": "4xx Client Errors",    "category": "STATUS_CODES", "filename": "status-4xx.md"},
+  {"id": "status-5xx",        "title": "5xx Server Errors",    "category": "STATUS_CODES", "filename": "status-5xx.md"},
+  {"id": "auth-basic",        "title": "Basic Authentication", "category": "AUTH",         "filename": "auth-basic.md"},
+  {"id": "auth-bearer",       "title": "Bearer Tokens",        "category": "AUTH",         "filename": "auth-bearer.md"},
+  {"id": "query-params",      "title": "Query Parameters",     "category": "PARAMS",       "filename": "query-params.md"}
+]

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Terminal window — rounded rectangle, white with subtle fill -->
+    <path
+        android:pathData="M26,28 C26,24.69 28.69,22 32,22 L76,22 C79.31,22 82,24.69 82,28 L82,80 C82,83.31 79.31,86 76,86 L32,86 C28.69,86 26,83.31 26,80 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="26" android:startY="22"
+                android:endX="82" android:endY="86">
+                <item android:offset="0.0" android:color="#FFFFFFFF" />
+                <item android:offset="1.0" android:color="#F0E8FFE8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Title bar separator -->
+    <path
+        android:fillColor="#FF1B6B42"
+        android:fillAlpha="0.15"
+        android:pathData="M26,42 L82,42 L82,44 L26,44 Z" />
+
+    <!-- Title bar traffic-light dots -->
+    <!-- Red dot -->
+    <path
+        android:fillColor="#FFFF5F57"
+        android:pathData="M36,33 A3.5,3.5 0 1 1 29,33 A3.5,3.5 0 0 1 36,33 Z" />
+    <!-- Amber dot -->
+    <path
+        android:fillColor="#FFFFBD2F"
+        android:pathData="M46,33 A3.5,3.5 0 1 1 39,33 A3.5,3.5 0 0 1 46,33 Z" />
+    <!-- Green dot -->
+    <path
+        android:fillColor="#FF28C840"
+        android:pathData="M56,33 A3.5,3.5 0 1 1 49,33 A3.5,3.5 0 0 1 56,33 Z" />
+
+    <!-- Prompt chevron > -->
+    <path
+        android:strokeColor="#FF1B6B42"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M34,57 L42,65 L34,73" />
+
+    <!-- Cursor rectangle (blinking block) -->
+    <path
+        android:pathData="M46,57 L66,57 L66,66 L46,66 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="46" android:startY="57"
+                android:endX="66" android:endY="66">
+                <item android:offset="0.0" android:color="#FF1B6B42" />
+                <item android:offset="1.0" android:color="#FF4CAF7D" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Cursor text lines below -->
+    <path
+        android:fillColor="#FF1B6B42"
+        android:fillAlpha="0.25"
+        android:pathData="M34,76 L74,76 L74,78 L34,78 Z" />
+
+    <!-- Window drop shadow hint -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#22000000"
+        android:strokeWidth="1.5"
+        android:pathData="M26,28 C26,24.69 28.69,22 32,22 L76,22 C79.31,22 82,24.69 82,28 L82,80 C82,83.31 79.31,86 76,86 L32,86 C28.69,86 26,83.31 26,80 Z" />
+
+</vector>

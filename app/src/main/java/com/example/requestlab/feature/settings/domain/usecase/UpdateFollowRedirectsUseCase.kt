@@ -1,0 +1,11 @@
+package com.example.requestlab.feature.settings.domain.usecase
+
+import com.example.requestlab.core.common.AppResult
+import com.example.requestlab.feature.settings.domain.SettingsRepository
+import javax.inject.Inject
+
+class UpdateFollowRedirectsUseCase @Inject constructor(
+    private val repo: SettingsRepository,
+) {
+    suspend operator fun invoke(enabled: Boolean): AppResult<Unit> = repo.setFollowRedirects(enabled)
+}

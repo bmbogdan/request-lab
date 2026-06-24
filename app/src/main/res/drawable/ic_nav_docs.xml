@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Left page -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M3,5 C3,4.45 3.45,4 4,4 L11,4 L11,20 L4,20 C3.45,20 3,19.55 3,19 Z" />
+
+    <!-- Right page -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M13,4 L20,4 C20.55,4 21,4.45 21,5 L21,19 C21,19.55 20.55,20 20,20 L13,20 Z" />
+
+    <!-- Spine shadow (center groove) -->
+    <path
+        android:fillColor="#FF000000"
+        android:fillAlpha="0.6"
+        android:pathData="M11,4 L13,4 L13,20 L11,20 Z" />
+
+    <!-- Left page lines -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillAlpha="0.6"
+        android:pathData="M5,8 L9.5,8 L9.5,9 L5,9 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillAlpha="0.6"
+        android:pathData="M5,11 L9.5,11 L9.5,12 L5,12 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillAlpha="0.6"
+        android:pathData="M5,14 L8,14 L8,15 L5,15 Z" />
+
+    <!-- Right page lines -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillAlpha="0.6"
+        android:pathData="M14.5,8 L19,8 L19,9 L14.5,9 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillAlpha="0.6"
+        android:pathData="M14.5,11 L19,11 L19,12 L14.5,12 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillAlpha="0.6"
+        android:pathData="M14.5,14 L18,14 L18,15 L14.5,15 Z" />
+
+</vector>

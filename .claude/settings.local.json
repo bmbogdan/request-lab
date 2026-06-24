@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rtk grep *)",
+      "Skill(android-architecture)",
+      "Skill(android-design-system)",
+      "Bash(rtk ./gradlew assembleDebug)",
+      "Bash(rtk curl *)",
+      "Bash(rtk ls *)",
+      "Bash(rtk gradle *)",
+      "Bash(rtk gradlew *)",
+      "Bash(grep -v \"^$\")",
+      "Bash(rtk df *)",
+      "Bash(xargs cat)",
+      "Bash(rtk find *)",
+      "Bash(rtk read *)",
+      "Bash(awk -F'\"' '{s+=$2} END{print \"Total tests:\", s}')",
+      "Bash(adb devices *)",
+      "Bash(~/Library/Android/sdk/platform-tools/adb devices *)",
+      "Bash(~/Library/Android/sdk/platform-tools/adb install *)",
+      "Bash(~/Library/Android/sdk/platform-tools/adb shell *)",
+      "Bash(~/Library/Android/sdk/platform-tools/adb logcat *)",
+      "Bash(rtk ./gradlew :app:compileDebugKotlin --no-daemon)",
+      "Bash(rtk ./gradlew :app:installDebug --no-daemon)",
+      "Bash(~/Library/Android/sdk/emulator/emulator *)",
+      "Bash(~/Library/Android/sdk/platform-tools/adb wait-for-device *)",
+      "Skill(run)",
+      "Bash(rtk npx *)",
+      "Bash(android --help)",
+      "Bash(android journey *)",
+      "Bash(echo \"logcat pid: $!\")",
+      "Bash(android screen *)",
+      "Bash(android layout *)",
+      "Bash(python3 -c ' *)",
+      "Bash(~/Library/Android/sdk/platform-tools/adb exec-out *)",
+      "Bash(awk '/OutlinedTextField/{found=1; start=NR} found && NR>=start && NR<=start+15{print NR\": \"$0} NR>start+15{found=0}' /Users/mihaibadea/AI-Projects/request-lab/app/src/main/java/com/example/requestlab/feature/builder/ui/BuilderScreen.kt)"
+    ]
+  }
+}

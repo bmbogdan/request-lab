@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Radial gradient base — deep forest green -->
+    <path android:pathData="M0,0 L108,0 L108,108 L0,108 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="46"
+                android:gradientRadius="68">
+                <item android:offset="0.0" android:color="#FF1E7A4A" />
+                <item android:offset="0.55" android:color="#FF125A33" />
+                <item android:offset="1.0"  android:color="#FF072B18" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle circuit-dot grid — top-left cluster -->
+    <path android:fillColor="#1AFFFFFF" android:pathData="M18,18 A2,2 0 1 1 16,18 A2,2 0 0 1 18,18 Z" />
+    <path android:fillColor="#12FFFFFF" android:pathData="M28,18 A1.5,1.5 0 1 1 25,18 A1.5,1.5 0 0 1 28,18 Z" />
+    <path android:fillColor="#0CFFFFFF" android:pathData="M18,28 A1.5,1.5 0 1 1 15,28 A1.5,1.5 0 0 1 18,28 Z" />
+    <path android:fillColor="#08FFFFFF" android:pathData="M28,28 A1,1 0 1 1 26,28 A1,1 0 0 1 28,28 Z" />
+
+    <!-- Subtle circuit-dot grid — bottom-right cluster -->
+    <path android:fillColor="#1AFFFFFF" android:pathData="M92,92 A2,2 0 1 1 90,92 A2,2 0 0 1 92,92 Z" />
+    <path android:fillColor="#12FFFFFF" android:pathData="M82,92 A1.5,1.5 0 1 1 79,92 A1.5,1.5 0 0 1 82,92 Z" />
+    <path android:fillColor="#0CFFFFFF" android:pathData="M92,82 A1.5,1.5 0 1 1 89,82 A1.5,1.5 0 0 1 92,82 Z" />
+    <path android:fillColor="#08FFFFFF" android:pathData="M82,82 A1,1 0 1 1 80,82 A1,1 0 0 1 82,82 Z" />
+
+    <!-- Connector lines (circuit traces) -->
+    <path
+        android:strokeColor="#0CFFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M18,18 L28,18 L28,28" />
+    <path
+        android:strokeColor="#0CFFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M82,92 L82,82 L92,82" />
+
+    <!-- Subtle diagonal highlight sweep -->
+    <path android:pathData="M0,108 L108,0 L108,20 L20,108 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0" android:startY="108"
+                android:endX="108" android:endY="0">
+                <item android:offset="0.0" android:color="#00FFFFFF" />
+                <item android:offset="0.5" android:color="#08FFFFFF" />
+                <item android:offset="1.0" android:color="#00FFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+</vector>

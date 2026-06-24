@@ -47,7 +47,7 @@ A lightweight, offline-first HTTP client for Android — a "Postman-lite" you ca
 ## Project Structure
 
 ```
-app/src/main/java/com/example/requestlab/
+app/src/main/java/eu/mihaibadea/requestlab/
 ├── core/                 # Cross-cutting infrastructure
 │   ├── common/           # Result/error model, dispatchers, connectivity
 │   ├── crypto/           # Keystore-backed secret cipher

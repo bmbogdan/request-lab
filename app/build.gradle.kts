@@ -7,10 +7,10 @@ plugins {
 }
 
 android {
-    namespace = "com.example.requestlab"
+    namespace = "eu.mihaibadea.requestlab"
     compileSdk = 36
     defaultConfig {
-        applicationId = "com.example.requestlab"
+        applicationId = "eu.mihaibadea.requestlab"
         minSdk = 26  // Keystore AES/GCM + java.time + SAF persistable URIs require API 26
         targetSdk = 36
         versionCode = 1
